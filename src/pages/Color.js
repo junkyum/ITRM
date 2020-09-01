@@ -26,7 +26,7 @@ const Color = () =>  {
               Color
               </div>
               <div className = "Style_guide_Tag">
-              style guide
+              STYLE GUIDE
               </div>
            </div>
 

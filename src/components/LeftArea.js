@@ -7,10 +7,12 @@ const LeftArea = () => {
     };
     return (
       <div className = "left-area">
-        <div className = "desin_system">
+        <div className = "design-system">
+          <a href="/">
           Design
           System
           for ITRM
+          </a>
         </div>
         <div className = "style_guide">
           STYLE GUIDE
@@ -22,21 +24,17 @@ const LeftArea = () => {
         <li><NavLink exact to="/Logo" activeStyle={activeStyle}>Logo</NavLink></li>
         </ul>
         <div className = "ui_component">
-          UI Component
+          UI COMPONENT
         </div>
-        <div className = "ui_component_elements">
-          Buttons
-          Toggles
-          Input Fields
-          Dropdown Menus
-          ToolTips & Markers
-          Notifications
-          Modals
-          Empty States
-          Date Pickers
-          Grid List
-          Data Tables
-        </div>
+        <ul className = "ui_component_elements">
+        <li><NavLink exact to="/Buttons" activeStyle={activeStyle}>Buttons</NavLink></li>
+        <li><NavLink exact to="/Inputs" activeStyle={activeStyle}>Inputs & Drop Downs</NavLink></li>
+        <li><NavLink exact to="/Tooltips" activeStyle={activeStyle}>Tooltips & Makers</NavLink></li>
+        <li><NavLink exact to="/Notifications" activeStyle={activeStyle}>Notifications</NavLink></li>
+        <li><NavLink exact to="/Modals" activeStyle={activeStyle}>Modals</NavLink></li>
+        <li><NavLink exact to="/Grid List" activeStyle={activeStyle}>Grid List</NavLink></li>
+        <li><NavLink exact to="/Data Table" activeStyle={activeStyle}>Data Table</NavLink></li>
+        </ul>
       </div>
     );
   };
