@@ -5,7 +5,7 @@ import { ReactSVG } from 'react-svg';
 const Main = () => {
   return (
       <div className = "Container-main">
-        <ReactSVG src="/icon/visual.svg" width="362" height="241" />
+        <ReactSVG src="/icon/visual.svg" />
         <span className = "main-title">
           Welcome to use design system of ITRM
         </span>
