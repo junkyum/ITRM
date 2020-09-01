@@ -1,11 +1,11 @@
 import React from 'react';
-import {UnDraw} from 'framer';
+import { ReactSVG } from 'react-svg';
 
 
 const Main = () => {
   return (
       <div className = "Container-main">
-        <img src="img/visual.png" width="362" height="241"></img>
+        <ReactSVG src="/icon/visual.svg" width="362" height="241" />
         <span className = "main-title">
           Welcome to use design system of ITRM
         </span>

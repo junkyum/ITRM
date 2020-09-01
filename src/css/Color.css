@@ -63,6 +63,14 @@
     border-radius: 50%;
     float: left;
   }
+  .Round_Color1{
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+    border-radius: 50%;
+    float: left;
+    border: 1px solid #ddd;
+  }
   .Contents_Tag{
     width: 115px;
     height: 100px;
