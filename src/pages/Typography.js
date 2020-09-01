@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Typography = () => {
     return (
         <div>
@@ -75,6 +73,11 @@ const Typography = () => {
                  <p>size 11px  /  line 16px / spacing 0px</p>
                  <p>Network Device</p>
                  <p>size 12px  /  line 18px / spacing 0px</p>
+                 <p>Title: <strong>Information</strong></p>
+                 <p>Font Size : <strong>14px</strong></p>
+                 <p>Font Line Spacing: <strong>28px</strong></p>
+                 <p>페이지 타이틀, 섹션 타이틀, 모듈 타이틀 등 모든 타이틀에는 Samsung One Font를 사용합니다.</p>
+                <p>본문과 테이블에 포함되는 텍스트는 맑은 고딕 Font를사용합니다.</p>
                  </div>
              </div>    
             </div>
