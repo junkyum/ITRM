@@ -1,3 +1,11 @@
+@font-face {
+  font-family: SamsungOne-400;
+  src: url(/css/font/SamsungOne-400.ttf);
+  font-family: SamsungOne-700;
+  src: url(/css/font/SamsungOne-700.ttf);
+  font-family: SamsungSharpSans-Bold;
+  src: url(/css/font/SamsungSharpSans-Bold.ttf);
+}
 body{
     width: 1920px;
     height: 100%;
@@ -75,8 +83,9 @@ body{
     overflow: visible;
     margin-top: 25px ;
     margin-left: 65px;
+    font-family: SamsungOne-400;
   }
-  .ui_component {
+.ui_component {
     width: 98px;
     height: 15px;
     overflow: visible;
@@ -89,8 +98,8 @@ body{
     margin-top: 35px ;
     margin-left: 47px;
   }
-  .ui_component_elements {
-    width: 128px;
+.ui_component_elements {
+    width: 128p;
     height: 416px;
     display: flex;
     flex-direction: column;
