@@ -24,13 +24,19 @@ const Buttons = () => {
                 <div className ="BasicBtns">
                     <span>Big</span>
                     <button className = "B_Btn">Nomal</button>
-                    
+                    <button className = "B_Btn_H">Hover</button>
+                    <button className = "B_Btn_P">Pressed</button>
+                    <button className = "B_Btn">Disabled</button>
                     <span>Default</span>
                     <button className = "D_Btn">Nomal</button>
-                    
+                    <button className = "D_Btn_H">Hover</button>
+                    <button className = "D_Btn_P">Pressed</button>
+                    <button className = "D_Btn">Disabled</button>
                     <span>Small</span>
                     <button className = "S_Btn">Nomal</button>
-                    
+                    <button className = "S_Btn_H">Hover</button>
+                    <button className = "S_Btn_P">Pressed</button>
+                    <button className = "S_Btn">Disabled</button>
                 </div>
                 <div className ="BasicBtn_StyleGuide">
                     <div className="BasicBtn_StyleGuide_L">
@@ -55,11 +61,27 @@ const Buttons = () => {
                         <input type="radio" value="option1" name ="NomalRadio" />
                         Nomal Radio Button
                         </label>
+                        <label>
+                        <input type="radio" value="option1" name ="NomalRadio" />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name ="NomalRadio" />
+                        Active Radio Button
+                        </label>
                     </div>
                     <div className ="Radio_Style_R">
                         <label>
                         <input type="radio" value="option1" name="SmallRadio" />
                         Small Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name="SmallRadio" />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name="SmallRadio" />
+                        Active Radio Button
                         </label>
                     </div>
                 </div>
@@ -69,11 +91,27 @@ const Buttons = () => {
                         <input type="checkbox" value="option1"  />
                         Nomal Radio Button
                         </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Active Radio Button
+                        </label>
                     </div>
                     <div className ="ChkBox_Style_R">
                         <label>
                         <input type="checkbox" value="option1"  />
                         Small Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Active Radio Button
                         </label>
                     </div>
                 </div>

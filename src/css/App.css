@@ -1,7 +1,7 @@
 @font-face{
     font-family: "SamsungOne-700";
     font-weight: 700;
-    src: url("../font/SamsungOne-700.woff") format("woff")
+    src: url("/font/SamsungOne-700.woff") format("woff")
 }
 body{
     width: 1920px;
