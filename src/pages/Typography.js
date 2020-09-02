@@ -64,16 +64,46 @@ const Typography = () => {
                     <h6>h6. ITRM Heading</h6>
                     <p>H1 bold / size 12px / line 16px / spacing 0px</p>
                 </div>
-                <div className ="Text_style">
+                <div className ="Text-style">
                     <div>
                         <span>
                             Body Text
                         </span>
-                        <p>
+                        <p className = "body">
                             Our semiconductor solutions are the engines that power today’s devices.
                         </p>
-                        <p>
+                        <p className = "b">
                             Body size 14px / line 22px / spacing 0px
+                        </p>
+                    </div>
+                    <div>
+                        <span className = "caption">
+                            Caption Text
+                        </span>
+                        <p className = "caption">
+                            State: Normal
+                        </p>
+                        <p className = "b">
+                            size 11px  /  line 16px / spacing 0px
+                        </p>
+                    </div>
+                    <div>
+                        <span className = "table">
+                            Table Text
+                        </span>
+                        <p className = "table">
+                            Network Device
+                        </p>
+                        <p className = "b">
+                            size 12px  /  line 18px / spacing 0px
+                        </p>
+                    </div>
+                    <div>
+                        <span className = "item">
+                            Information items
+                        </span>
+                        <p className = "item">
+                            Title: &nbsp;<span className = "b">Information</span><br />Font Size: &nbsp;<span className = "b">14px</span><br />Font Line Spacing: &nbsp;<span className = "b">28px</span>
                         </p>
                     </div>
                 </div>    
