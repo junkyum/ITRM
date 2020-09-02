@@ -14,7 +14,7 @@ const Icon = () => {
                 </div>
             </div>
             <div className = "Primary-icon">
-                Basic Icon
+                Basic Icons
             </div>
             <div className = "Icon">
                 <ul>
@@ -265,8 +265,36 @@ const Icon = () => {
                     <li><ReactSVG src="/icon/zoom-out.svg" /></li>
                 </ul>
             </div>
-            <div className = "Secondary-icon">
-                Basic Icon
+            <div className = "Secondary-icon-l">
+                Device Icons
+            </div>
+            <div className = "Secondary-icon-r">
+                Favicon
+            </div>
+            <div className = "Icon-device">
+                <ul>
+                    <li><ReactSVG className = "svg" src="/icon/device_server.svg" /><span className = "name">Server</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/database.svg" /><span className = "name">Storage</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/device_network.svg" /><span className = "name">Network</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/shield.svg" /><span className = "name">Scurity</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/database.svg" /><span className = "name">Storage</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/device_network.svg" /><span className = "name">Network</span></li>
+                    <li><ReactSVG className = "svg" src="/icon/shield.svg" /><span className = "name">Scurity</span></li>
+
+                </ul>
+            </div>
+            <div className = "Favicon">
+                <ReactSVG src="/icon/favicon.svg" />
+            </div>
+            <div className = "File-icon">
+                File Icons
+            </div>
+            <div className = "Icon-file">
+                <ul>
+                    <li><ReactSVG src="/icon/excel.svg" /></li>
+                    <li><ReactSVG src="/icon/powerpoint.svg" /></li>
+                    <li><ReactSVG src="/icon/word.svg" /></li>
+                </ul>
             </div>
         </div>
     )

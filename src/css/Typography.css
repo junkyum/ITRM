@@ -116,7 +116,7 @@
     color: var(--Gray_Dark, #0a1635);
     font-size: 14px;
     padding-left: 155px;
-    line-height: 22px;
+    line-height: 24px;
     margin: 0px;
 }
 .Text-style p.b {
@@ -165,4 +165,16 @@
     font-family: "MalgunB", sans-serif;
     width: auto;
     line-height: 28px;
+}
+.Text-style .descrpition {
+    width: 350px;
+    overflow: visible;
+    font-family: "MalgunR", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 155px;
+    margin-top: 60px;
+    word-break: keep-all;
+    word-wrap: break-word;
 }

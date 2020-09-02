@@ -73,7 +73,7 @@ const Typography = () => {
                             Our semiconductor solutions are the engines that power today’s devices.
                         </p>
                         <p className = "b">
-                            Body size 14px / line 22px / spacing 0px
+                            size 14px / line 24px / spacing 0px
                         </p>
                     </div>
                     <div>
@@ -104,6 +104,11 @@ const Typography = () => {
                         </span>
                         <p className = "item">
                             Title: &nbsp;<span className = "b">Information</span><br />Font Size: &nbsp;<span className = "b">14px</span><br />Font Line Spacing: &nbsp;<span className = "b">28px</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p className = "descrpition">
+                            페이지 타이틀, 섹션 타이틀, 모듈 타이틀 등 모든 타이틀에는 Samsung One Font를 사용합니다. 본문과 테이블에 포함되는 텍스트는 맑은 고딕 Font를 사용합니다.
                         </p>
                     </div>
                 </div>    
