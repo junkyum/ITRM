@@ -1,14 +1,14 @@
 @font-face {
   font-family: SamsungOne-400;
-  src: url(/css/font/SamsungOne-400.ttf) format("truetype");
+  src: url(/css/font/SamsungOne-400.woff) format("woff");
   font-family: SamsungOne-700;
-  src: url(/css/font/SamsungOne-700.ttf) format("truetype");
+  src: url(/css/font/SamsungOne-700.woff) format("woff");
   font-family: SamsungSharpSans-Bold;
-  src: url(/css/font/SamsungSharpSans-Bold.ttf) format("truetype");
+  src: url(/css/font/SamsungSharpSans-Bold.woff) format("woff");
   font-family: MalgunB;
-  src: url(/css/font/MalgunB.ttf) format("truetype");
+  src: url(/css/font/MalgunB.woff) format("woff");
   font-family: MalgunR;
-  src: url(/css/font/MalgunR.ttf) format("truetype");
+  src: url(/css/font/MalgunR.wofff) format("woff");
 }
 body{
     width: 1920px;
