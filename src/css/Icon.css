@@ -1,4 +1,6 @@
 .Primary-icon {
+    width: 90px;
+    height: 19px;
     overflow: visible;
     font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
@@ -8,9 +10,6 @@
     line-height: 1.1;
     margin-top: 110px;
     margin-bottom: 50px;
-}
-.Icon ul {
-    list-style: none;
 }
 .Icon li {
     float: left;
@@ -20,7 +19,9 @@
 .Icon li:nth-child(12n) {
     margin-right: 0px;
 }
-.Secondary-icon {
+.Secondary-icon-l {
+    width: 780px;
+    height: 19px;
     overflow: visible;
     font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
@@ -28,7 +29,70 @@
     font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 1.1;
-    
-    margin-top: 110px;
+    float: left;
+    margin-top: 77px;
     margin-bottom: 50px;
+}
+.Secondary-icon-r {
+    width: 90px;
+    height: 19px;
+    overflow: visible;
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    float: left;
+    margin-top: 77px;
+    margin-bottom: 50px;
+}
+.Icon-device {
+    clear: both;
+}
+.Icon-device li {
+    float: left;
+    width: 170px;
+    margin-bottom: 35px;
+}
+.Icon-device .svg {
+    float: left;
+}
+.Icon-device span.name {
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 4px;
+    padding-left: 20px;
+}
+.Icon-device li:nth-child(5) {
+    clear: left;
+}
+.Favicon {
+    display: inline-block;
+    margin-left: 100px;
+}
+.File-icon {
+    width: 120px;
+    height: 19px;
+    overflow: visible;
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    clear: left;
+    float: left;
+}
+.Icon-file {
+    clear: both;
+}
+.Icon-file li {
+    float: left;
+    margin-right: 62px;
 }
