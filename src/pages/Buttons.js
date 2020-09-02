@@ -2,11 +2,12 @@ import React from 'react';
 import { ReactSVG } from 'react-svg'
 import Toggle from 'react-toggle'
 import {CircularProgress,LinearProgress} from '@material-ui/core';
+import {Alert} from '@material-ui/lab'
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 import '../css/Buttons.css'
 import '../css/react-toggle.css'
 
 const Buttons = () => {
-    
     return (
         <div className = "Container">
             <div className = "Tag">
@@ -393,13 +394,20 @@ const Buttons = () => {
                     </div>
                     <div className ="Function_Btn_Upload">
                         <span>Upload</span>
+                        <CopyToClipboard 
+                        text = {"<img src='/icon/upload.svg' width='300' height='300'>"}
+                        >
                         <button>
                         <ReactSVG src="/icon/upload.svg"
+                        onClick={() => {
+                           
+                        }}
                         beforeInjection={(svg) => {
                             svg.setAttribute("width", "20");
                             svg.setAttribute("height", "20");
                         }}/>
                         </button>
+                        </CopyToClipboard>
                         <button>
                         <ReactSVG src="/icon/upload.svg"
                         beforeInjection={(svg) => {
