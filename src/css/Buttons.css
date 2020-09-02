@@ -14,36 +14,53 @@
 
 }
 .B_Btn{
-
+  box-sizing: border-box;
+  width: 130px;
+  height: 36px;
+  overflow: visible;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid var(--Gray_State, #7c92a9);
 }
-.B_Btn_H{
-
+.B_Btn:hover{
+  box-sizing: border-box;
+  width: 130px;
+  height: 36px;
+  overflow: visible;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 2px solid var(--Primary_Blue, #1428a0);
 }
-.B_Btn_P{
-
+.B_Btn:active{
+  box-sizing: border-box;
+  width: 130px;
+  height: 36px;
+  overflow: visible;
+  background-color: #1428a0;
+  border-radius: 18px;
+  color: #ffffff;
+  border: 2px solid var(--Primary_Blue, #1428a0);
 }
-.D_Btn:disabled{
+.B_Btn::after {
+  box-sizing: border-box;
+  width: 130px;
+  height: 36px;
+  overflow: visible;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid var(--Gray_State, #7c92a9);
+}
+
+.B_Btn:disabled{
 
 }
 .D_Btn{
-
-}
-.D_Btn_H{
-
-}
-.D_Btn_P{
 
 }
 .D_Btn:disabled{
 
 }
 .S_Btn{
-
-}
-.S_Btn_H{
-
-}
-.S_Btn_P{
 
 }
 .S_Btn:disabled{
@@ -73,8 +90,39 @@
 .Icon{
 
 }
-.Link{
+.Link_Btn{
 
+}
+.Link_Btn span{
+    width: 62px;
+  height: 22px;
+  overflow: visible;
+  font-family: "맑은 고딕 Bold", serif;
+  color: var(--Primary_SubBlue, #1a6fc4);
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+}
+.Link_Btn a{
+  width: 108px;
+  height: 22px;
+  overflow: visible;
+  font-family: "맑은 고딕 Bold", serif;
+  color: var(--Primary_SubBlue, #1a6fc4);
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  text-decoration: underline;
+}
+.Link_Btn p{
+  width: 298px;
+  height: 44px;
+  overflow: visible;
+  font-family: "맑은 고딕 Regular", serif;
+  color: var(--Gray_Dark, #0a1635);
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
 }
 .Function_Btn{
 
@@ -83,7 +131,15 @@
 
 }
 .ListMore{
-
+  align-content: center;
+}
+.ListMoreBox{
+  box-sizing: border-box;
+  width: 180px;
+  height: 36px;
+  overflow: visible;
+  border-radius: 18px;
+  border: 1px solid var(--Gray_State, #7c92a9);
 }
 .Loader{
 
