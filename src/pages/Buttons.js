@@ -331,10 +331,40 @@ const Buttons = () => {
                             svg.setAttribute("height", "20");
                         }}/>
                         </li>
+                        <li><ReactSVG src="/icon/arrow-left-circle.svg"
+                        beforeInjection={(svg) => {
+                            svg.setAttribute("width", "20");
+                            svg.setAttribute("height", "20");
+                        }}/>
+                        </li>
+                        <li><ReactSVG src="/icon/arrow-right-circle.svg"
+                        beforeInjection={(svg) => {
+                            svg.setAttribute("width", "20");
+                            svg.setAttribute("height", "20");
+                        }}/>
+                        </li>
+                        <li><ReactSVG src="/icon/excel.svg"
+                        beforeInjection={(svg) => {
+                            svg.setAttribute("width", "20");
+                            svg.setAttribute("height", "20");
+                        }}/>
+                        </li>
+                        <li><ReactSVG src="/icon/powerpoint.svg"
+                        beforeInjection={(svg) => {
+                            svg.setAttribute("width", "20");
+                            svg.setAttribute("height", "20");
+                        }}/>
+                        </li>
+                        <li><ReactSVG src="/icon/word.svg"
+                        beforeInjection={(svg) => {
+                            svg.setAttribute("width", "20");
+                            svg.setAttribute("height", "20");
+                        }}/>
+                        </li>
                     </ul>
                 </div>
                 <div className = "Link_Btn">
-
+                        
                 </div>
                 <div className = "Function_Btn">
                     
