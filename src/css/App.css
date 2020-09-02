@@ -44,8 +44,11 @@ body {
 ol, ul {
 	list-style: none;
 }
-
-a{
+button:focus{
+ outline: none;
+}
+a{  
+    border: 0;
     color: inherit;
     text-decoration: none;
     border: 0;

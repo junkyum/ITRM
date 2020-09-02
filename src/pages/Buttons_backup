@@ -2,12 +2,11 @@ import React from 'react';
 import { ReactSVG } from 'react-svg'
 import Toggle from 'react-toggle'
 import {CircularProgress,LinearProgress} from '@material-ui/core';
-import {Alert} from '@material-ui/lab'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 import '../css/Buttons.css'
 import '../css/react-toggle.css'
 
 const Buttons = () => {
+    
     return (
         <div className = "Container">
             <div className = "Tag">
@@ -25,13 +24,19 @@ const Buttons = () => {
                 <div className ="BasicBtns">
                     <span>Big</span>
                     <button className = "B_Btn">Nomal</button>
-                    
+                    <button className = "B_Btn_H">Hover</button>
+                    <button className = "B_Btn_P">Pressed</button>
+                    <button className = "B_Btn">Disabled</button>
                     <span>Default</span>
                     <button className = "D_Btn">Nomal</button>
-                    
+                    <button className = "D_Btn_H">Hover</button>
+                    <button className = "D_Btn_P">Pressed</button>
+                    <button className = "D_Btn">Disabled</button>
                     <span>Small</span>
                     <button className = "S_Btn">Nomal</button>
-                    
+                    <button className = "S_Btn_H">Hover</button>
+                    <button className = "S_Btn_P">Pressed</button>
+                    <button className = "S_Btn">Disabled</button>
                 </div>
                 <div className ="BasicBtn_StyleGuide">
                     <div className="BasicBtn_StyleGuide_L">
@@ -56,11 +61,27 @@ const Buttons = () => {
                         <input type="radio" value="option1" name ="NomalRadio" />
                         Nomal Radio Button
                         </label>
+                        <label>
+                        <input type="radio" value="option1" name ="NomalRadio" />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name ="NomalRadio" />
+                        Active Radio Button
+                        </label>
                     </div>
                     <div className ="Radio_Style_R">
                         <label>
                         <input type="radio" value="option1" name="SmallRadio" />
                         Small Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name="SmallRadio" />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="radio" value="option1" name="SmallRadio" />
+                        Active Radio Button
                         </label>
                     </div>
                 </div>
@@ -70,11 +91,27 @@ const Buttons = () => {
                         <input type="checkbox" value="option1"  />
                         Nomal Radio Button
                         </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Active Radio Button
+                        </label>
                     </div>
                     <div className ="ChkBox_Style_R">
                         <label>
                         <input type="checkbox" value="option1"  />
                         Small Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Hover Radio Button
+                        </label>
+                        <label>
+                        <input type="checkbox" value="option1"  />
+                        Active Radio Button
                         </label>
                     </div>
                 </div>
@@ -394,20 +431,13 @@ const Buttons = () => {
                     </div>
                     <div className ="Function_Btn_Upload">
                         <span>Upload</span>
-                        <CopyToClipboard 
-                        text = {"<img src='/icon/upload.svg' width='300' height='300'>"}
-                        >
                         <button>
                         <ReactSVG src="/icon/upload.svg"
-                        onClick={() => {
-                           
-                        }}
                         beforeInjection={(svg) => {
                             svg.setAttribute("width", "20");
                             svg.setAttribute("height", "20");
                         }}/>
                         </button>
-                        </CopyToClipboard>
                         <button>
                         <ReactSVG src="/icon/upload.svg"
                         beforeInjection={(svg) => {
