@@ -16,10 +16,10 @@ const Logo = () => {
                 ITRM Logo
             </div>
             <div className = "logo-box">
-                <img src = "../../img/ITRM_logo.png"></img>
+                <img src = "../../img/ITRM@2x.png"></img>
             </div>
             <div className = "logo-box-blue">
-                <img src = "../../img/ITRM_logo_w.png"></img>
+                <img src = "../../img/ITRM_w@2x.png"></img>
             </div>
         </div>
     )

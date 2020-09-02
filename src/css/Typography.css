@@ -1,27 +1,104 @@
-.Font_group{
-
+.Primary-typo {
+    width: 980px;
+    overflow: visible;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-top: 110px;
+    margin-bottom: 40px;
 }
-.Font_family{
-
+.Primary-typo span.l {
+    float: left;
+    width: 620px;
 }
-.Font_weight{
-
+.Font-group {
+    width: 980px;
+    overflow: visible;
 }
-.Font_style{
-
+.Font-family {
+    width: 620px;
+    float: left;
 }
-.Font_style_Tag{
-
+.Font-family span.l {
+    width: 328px;
+    height: 56px;
+    font-family: "SamsungOne-700", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 44px;
+    letter-spacing: -2px;
 }
-.H_style{
-
+.Font-family span.r {
+    width: 328px;
+    height: 56px;
+    font-family: "MalgunB", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 42px;
+    letter-spacing: -2px;
+    display: block;
+    margin-top: 50px;
 }
-.Text_style{
-
+.Font-weight ul {
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
 }
-.Text_style_left{
-
+.Font-weight li {
+    display: inline-block;
+    margin-bottom: 20px;
 }
-.Text_style_right{
-
+.Font-weight .one400 {
+    font-family: "SamsungOne-400", sans-serif;
+    font-size: 30px;
+    padding-right: 125px;
+}
+.Font-weight .one700 {
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 30px;
+}
+.Font-weight .r {
+    font-family: "MalgunR", sans-serif;
+    font-size: 30px;
+    padding-right: 125px;
+}
+.Font-weight .b {
+    font-family: "MalgunB", sans-serif;
+    font-size: 30px;
+}
+.Font-style-Tag {
+    width: 980px;
+    overflow: visible;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.H-style {
+    float: left;
+    width: 500px;
+}
+.H-style p {
+    font-family: "Inter-Light", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.Text_style span {
+    width: 120px;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    float: left;
+    background-color: red;
+}
+.Text_style p {
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    padding-left: 120px;
+    background-color: red;
 }
