@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Typography.css'
 
 const Typography = () => {
     return (

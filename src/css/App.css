@@ -5,6 +5,10 @@
   src: url(/css/font/SamsungOne-700.ttf);
   font-family: SamsungSharpSans-Bold;
   src: url(/css/font/SamsungSharpSans-Bold.ttf);
+  font-family: MalgunB;
+  src: url(/css/font/MalgunB.ttf);
+  font-family: MalgunR;
+  src: url(/css/font/MalgunR.ttf);
 }
 body{
     width: 1920px;
