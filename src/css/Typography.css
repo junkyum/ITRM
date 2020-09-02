@@ -1,9 +1,10 @@
 .Primary-typo {
     width: 980px;
     overflow: visible;
-    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 18px;
+    font-weight: 600;
     letter-spacing: -0.5px;
     font-weight: 600;
     margin-top: 110px;
@@ -11,56 +12,60 @@
 }
 .Primary-typo span.l {
     float: left;
-    width: 620px;
+    width: 655px;
 }
 .Font-group {
     width: 980px;
     overflow: visible;
 }
 .Font-family {
-    width: 620px;
+    width: 655px;
     float: left;
 }
 .Font-family span.l {
-    width: 328px;
-    height: 56px;
     font-family: "SamsungOne-700", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 44px;
     letter-spacing: -2px;
 }
 .Font-family span.r {
-    width: 328px;
-    height: 56px;
     font-family: "MalgunB", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 42px;
     letter-spacing: -2px;
     display: block;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 .Font-weight ul {
     font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 14px;
+    font-weight: 300;
 }
 .Font-weight li {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+}
+.Font-weight ul li p {
+    padding-top: 10px;
 }
 .Font-weight .one400 {
     font-family: "SamsungOne-400", sans-serif;
     font-size: 30px;
-    padding-right: 125px;
+    letter-spacing: -1px;
+    width: 205px;
+    display: block;
 }
 .Font-weight .one700 {
     font-family: "SamsungOne-700", sans-serif;
     font-size: 30px;
+    letter-spacing: -1px;
 }
 .Font-weight .r {
     font-family: "MalgunR", sans-serif;
     font-size: 30px;
-    padding-right: 125px;
+    width: 205px;
+    display: block;
 }
 .Font-weight .b {
     font-family: "MalgunB", sans-serif;
@@ -69,9 +74,10 @@
 .Font-style-Tag {
     width: 980px;
     overflow: visible;
-    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 18px;
+    font-weight: 600;
     letter-spacing: -0.5px;
     font-weight: 600;
     margin-top: 60px;
@@ -82,23 +88,81 @@
     width: 500px;
 }
 .H-style p {
-    font-family: "Inter-Light", "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 14px;
+    font-weight: 300;
     display: block;
-    margin-top: 0px;
+    margin-top: 6px;
     margin-bottom: 40px;
 }
-.Text_style span {
-    width: 120px;
-    color: var(--Gray_Dark, #0a1635);
-    font-size: 14px;
+.Text-style {
     float: left;
-    background-color: red;
+    width: 480px;
+    margin-top:3px;
 }
-.Text_style p {
+.Text-style span {
+    width: 125px;
+    font-family: "Inter", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 14px;
-    padding-left: 120px;
-    background-color: red;
+    font-weight: 600;
+    line-height: 22px;
+    position: absolute;
+    text-align: right;
+}
+.Text-style p.body {
+    font-family: "MalgunR", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    padding-left: 155px;
+    line-height: 22px;
+    margin: 0px;
+}
+.Text-style p.b {
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 155px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+.Text-style span.caption {
+    line-height: 16px;
+}
+.Text-style p.caption {
+    font-family: "MalgunR", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 11px;
+    padding-left: 155px;
+    line-height: 16px;
+    margin: 0px;
+}
+.Text-style span.table {
+    line-height: 18px;
+}
+.Text-style p.table {
+    font-family: "MalgunR", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 12px;
+    padding-left: 155px;
+    line-height: 18px;
+    margin: 0px;
+}
+.Text-style span.item {
+    line-height: 28px;
+}
+.Text-style p.item {
+    font-family: "MalgunR", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    padding-left: 155px;
+    line-height: 28px;
+    margin: 0px;
+}
+.Text-style span.b {
+    font-family: "MalgunB", sans-serif;
+    width: auto;
+    line-height: 28px;
 }
