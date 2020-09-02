@@ -215,13 +215,12 @@ h6{
 }
 .Container {
     width: 980px;
-    height: 100%;
     overflow: visible;
     margin-top: 110px;
     position: absolute;
     left: 50%;
     margin-left: -620px;
-    margin-bottom: 160px;
+    margin-bottom: 150px;
     padding-left: 260px;
     z-index: -1;
 }

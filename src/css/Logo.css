@@ -1,0 +1,42 @@
+.logo-box {
+    display: block;
+    width: 980px;
+    height: 440px;
+    overflow: visible;
+    background-color: #ffffff;
+    border: 1px solid var(--Gray_Silver, #c9d8e2);
+    margin-top: 60px;
+    text-align: center;
+}
+.logo-box-blue {
+    display: block;
+    width: 980px;
+    height: 440px;
+    overflow: visible;
+    background: var(--Primary_Blue, #1428a0);
+    border: 1px solid var(--Gray_Silver, #c9d8e2);
+    margin-top: 77px;
+    text-align: center;
+  }
+.logo-box img {
+    width: 330px;
+    height: 70px;
+    margin-top: 175px;
+}
+.logo-box-blue img {
+    width: 330px;
+    height: 70px;
+    margin-top: 175px;
+}
+.itrm-logo {
+    width: 90px;
+    height: 19px;
+    overflow: visible;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 110px;
+}
