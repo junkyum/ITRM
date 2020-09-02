@@ -1,14 +1,19 @@
 @font-face {
   font-family: SamsungOne-400;
-  src: url(/css/font/SamsungOne-400.woff) format("woff");
+  src: url(/css/font/SamsungOne-400.woff) format('woff');
+  src: url(/css/font/SamsungOne-400.eot);
   font-family: SamsungOne-700;
-  src: url(/css/font/SamsungOne-700.woff) format("woff");
+  src: url(/css/font/SamsungOne-700.woff) format('woff');
+  src: url(/css/font/SamsungOne-700.eot);
   font-family: SamsungSharpSans-Bold;
-  src: url(/css/font/SamsungSharpSans-Bold.woff) format("woff");
-  font-family: MalgunB;
-  src: url(/css/font/MalgunB.woff) format("woff");
+  src: url(/css/font/SamsungSharpSans-Bold.woff) format('woff');
+  src: url(/css/font/SamsungSharpSans-Bold.eot);
   font-family: MalgunR;
-  src: url(/css/font/MalgunR.wofff) format("woff");
+  src: url(/css/font/MalgunR.wofff);
+  src: url(/css/font/MalgunR.eot);
+  font-family: MalgunB;
+  src: url(/css/font/MalgunB.woff);
+  src: url(/css/font/MalgunB.eot);
 }
 body{
     width: 1920px;
@@ -124,7 +129,7 @@ body{
     color: var(--Gray_Dark, #0a1635);
 }
 h1{
-    font-family: "SamsungSharpSans-Bold";
+    font-family: "SamsungSharpSans-Bold", sans-serif;
     font-size: 36px;
     line-height:48px;
     letter-spacing: -1px;
