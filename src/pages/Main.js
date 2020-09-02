@@ -1,10 +1,13 @@
 import React from 'react';
-import {UnDraw} from 'framer';
+import { Frame,UnDraw} from 'framer';
 
 
 const Main = () => {
   return (
       <div className = "Container-main">
+        <Frame>
+          <UnDraw illustration={"user-flow"} />
+        </Frame>
         <img src="img/visual.png" width="362" height="241"></img>
         <span className = "main-title">
           Welcome to use design system of ITRM
