@@ -18,7 +18,25 @@ function Color_content({name,hexa}){
             </div>
     )
 }
+
+function Color_content1({name,hexa}){
+    return (
+            <div className = "Contents">
+                <div className = "Round_Color1" style = {{background : hexa}}>
+                </div>
+                <div className = "Contents_Tag">
+                    <div className = "Contents_name">
+                    {name}
+                    </div>
+                    <div className = "Contents_hexa">
+                    HEX {hexa}
+                    </div>
+                </div>
+            </div>
+    )
+}
 const Color = () =>  {
+    
     return (
         <div className = "Container">
            <div className = "Tag">
@@ -63,8 +81,8 @@ const Color = () =>  {
             <Color_content name = "Shark Gray" hexa = "#ABB9C6" />
             <Color_content name = "Silver Gray" hexa = "#C9D8E2" />  
             <Color_content name = "Ice Gray" hexa = "#E8EFF7" />
-            <Color_content name = "Cloud Gray" hexa = "#FAFBFD" />  
-            <Color_content name = "White" hexa = "#FFFFFF" />
+            <Color_content1 name = "Cloud Gray" hexa = "#FAFBFD" />  
+            <Color_content1 name = "White" hexa = "#FFFFFF" />
            </div>
         </div>
     );
