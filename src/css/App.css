@@ -1,14 +1,14 @@
 @font-face {
   font-family: SamsungOne-400;
-  src: url(/css/font/SamsungOne-400.ttf);
+  src: url(/css/font/SamsungOne-400.ttf) format("truetype");
   font-family: SamsungOne-700;
-  src: url(/css/font/SamsungOne-700.ttf);
+  src: url(/css/font/SamsungOne-700.ttf) format("truetype");
   font-family: SamsungSharpSans-Bold;
-  src: url(/css/font/SamsungSharpSans-Bold.ttf);
+  src: url(/css/font/SamsungSharpSans-Bold.ttf) format("truetype");
   font-family: MalgunB;
-  src: url(/css/font/MalgunB.ttf);
+  src: url(/css/font/MalgunB.ttf) format("truetype");
   font-family: MalgunR;
-  src: url(/css/font/MalgunR.ttf);
+  src: url(/css/font/MalgunR.ttf) format("truetype");
 }
 body{
     width: 1920px;
@@ -66,8 +66,8 @@ body{
     font-style: normal;
     margin-top: 43px;
     margin-left: 47px;
-  }
-  .style_guide {
+}
+.style_guide {
     width: 92px;
     height: 15px;
     overflow: visible;
@@ -92,11 +92,11 @@ body{
     font-family: "Inter", sans-serif;
     font-size: 14px;
     color: var(--Gray_Dark, #0a1635);
-  }
-  .left-area li {
+}
+.left-area li {
     font-family: inter;
     margin-bottom: 20px;
-  }
+}
 .ui_component {
     width: 160px;
     height: 15px;
@@ -109,7 +109,7 @@ body{
     font-weight: 500;
     margin-top: 35px ;
     margin-left: 47px;
-  }
+}
 .ui_component_elements {
     width: 160px;
     display: flex;
@@ -122,42 +122,48 @@ body{
     font-family: "Inter", sans-serif;
     font-size: 14px;
     color: var(--Gray_Dark, #0a1635);
-  }
- h1{
-   font-weight: bold;
-   font-size: 36px;
-   line-height:48px;
-   letter-spacing: -1.5px;
- }
- h2{
-  font-weight: bold;
-  font-size: 28px;
-  line-height:40px;
-  letter-spacing: -1px;
+}
+h1{
+    font-family: "SamsungSharpSans-Bold";
+    font-size: 36px;
+    line-height:48px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+h2{
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 28px;
+    line-height:40px;
+    letter-spacing: -0.5px;
+    margin: 0;
 }
 h3{
-  font-weight: bold;
-  font-size: 24px;
-  line-height:34px;
-  letter-spacing: -0.5px;
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 24px;
+    line-height:34px;
+    letter-spacing: -0.5px;
+    margin: 0;
 }
 h4{
-  font-weight: bold;
-  font-size: 18px;
-  line-height:26px;
-  letter-spacing: -0.5px;
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 18px;
+    line-height:26px;
+    margin: 0;
 }
 h5{
-  font-weight: bold;
-  font-size: 14px;
-  line-height:18px;
-  letter-spacing: 0px;
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 14px;
+    line-height:18px;
+    margin: 0;
 }
 h6{
-  font-weight: bold;
-  font-size: 12px;
-  line-height:16px;
-  letter-spacing: 0px;
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 12px;
+    line-height:16px;
+    margin: 0;
+}
+ul{
+  list-style: none;
 }
 .Tag{
   width : 980px;
@@ -167,7 +173,7 @@ h6{
     width: 113px;
     height: 52px;
     overflow: visible;
-    font-family: "Inter-Medium", "Inter", sans-serif;
+    font-family: "Inter-Medium", sans-serif;
     color: var(--Gray_Dark, #0a1635);
     font-size: 48px;
     letter-spacing: -1px;

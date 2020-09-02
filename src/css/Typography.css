@@ -17,41 +17,88 @@
     width: 980px;
     overflow: visible;
 }
+.Font-family {
+    width: 620px;
+    float: left;
+}
 .Font-family span.l {
     width: 328px;
     height: 56px;
-    overflow: visible;
-    font-family: "SamsungOne-700";
-    color: #000000;
+    font-family: "SamsungOne-700", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
     font-size: 44px;
-    letter-spacing: -2.5px;
-    line-height: 56px;
+    letter-spacing: -2px;
+}
+.Font-family span.r {
+    width: 328px;
+    height: 56px;
+    font-family: "MalgunB", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 42px;
+    letter-spacing: -2px;
+    display: block;
+    margin-top: 50px;
+}
+.Font-weight ul {
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+}
+.Font-weight li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.Font-weight .one400 {
+    font-family: "SamsungOne-400", sans-serif;
+    font-size: 30px;
+    padding-right: 125px;
+}
+.Font-weight .one700 {
+    font-family: "SamsungOne-700", sans-serif;
+    font-size: 30px;
 }
 .Font-weight .r {
-    width: 167px;
-    height: 56px;
+    font-family: "MalgunR", sans-serif;
+    font-size: 30px;
+    padding-right: 125px;
+}
+.Font-weight .b {
+    font-family: "MalgunB", sans-serif;
+    font-size: 30px;
+}
+.Font-style-Tag {
+    width: 980px;
     overflow: visible;
-    font-family: "맑은 고딕 Bold";
-    color: #000000;
-    font-size: 44px;
-    letter-spacing: -2.5px;
-    line-height: 56px;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
-.Font_style{
-
+.H-style {
+    float: left;
+    width: 500px;
 }
-.Font_style_Tag{
-
+.H-style p {
+    font-family: "Inter-Light", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
-.H_style{
-
+.Text_style span {
+    width: 120px;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    float: left;
+    background-color: red;
 }
-.Text_style{
-
-}
-.Text_style_left{
-
-}
-.Text_style_right{
-
+.Text_style p {
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    padding-left: 120px;
+    background-color: red;
 }
