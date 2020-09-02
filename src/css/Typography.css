@@ -1,11 +1,41 @@
-.Font_group{
-
+.Primary-typo {
+    width: 980px;
+    overflow: visible;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-top: 110px;
+    margin-bottom: 40px;
 }
-.Font_family{
-
+.Primary-typo span.l {
+    float: left;
+    width: 620px;
 }
-.Font_weight{
-
+.Font-group {
+    width: 980px;
+    overflow: visible;
+}
+.Font-family span.l {
+    width: 328px;
+    height: 56px;
+    overflow: visible;
+    font-family: "SamsungOne-700";
+    color: #000000;
+    font-size: 44px;
+    letter-spacing: -2.5px;
+    line-height: 56px;
+}
+.Font-weight .r {
+    width: 167px;
+    height: 56px;
+    overflow: visible;
+    font-family: "맑은 고딕 Bold";
+    color: #000000;
+    font-size: 44px;
+    letter-spacing: -2.5px;
+    line-height: 56px;
 }
 .Font_style{
 

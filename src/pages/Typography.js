@@ -1,22 +1,31 @@
 import React from 'react';
+import '../css/Typography.css'
 
 const Typography = () => {
     return (
-        <div>
+        <div className = "Container">
             <div className = "Tag">
               <div className = "Title_Tag" >
               Typography
               </div>
               <div className = "Style_guide_Tag">
-              style guide
+              STYLE GUIDE
               </div>
-           </div>
-            <div className = "Font_group">
-                <div className = "Font_family">
-                <p>SamsungOneFont</p>
-                <p>맑은 고딕</p>
+            </div>
+            <div className = "Primary-typo">
+                <span className = "l">
+                    Font Family
+                </span>
+                <span>
+                    Font Weight
+                </span>
+            </div>
+            <div className = "Font-group">
+                <div className = "Font-family">
+                    <span className = "l">SamsungOneFont</span>
+                    <span className = "r">맑은 고딕</span>
                 </div>
-                <div className = "Font_weight">
+                <div className = "Font-weight">
                     <div>
                     <p>One 400</p>
                     <p>Weight - Regular</p>
@@ -31,11 +40,11 @@ const Typography = () => {
                     </div>
                 </div>
             </div>
-            <div className = "Font_style">
-                <div className = "Font_style_Tag">
+            <div className = "Font-style">
+                <div className = "Font-style-Tag">
                 Font Style
                 </div>
-             <div className = "H_style">
+             <div className = "H-style">
                  <h1>h1. ITRM Heading</h1>
                  <p>H1 bold / size 36px / line 48px / spacing -1.5px</p>
                  <h2>h2. ITRM Heading</h2>
@@ -49,8 +58,8 @@ const Typography = () => {
                  <h6>h6. ITRM Heading</h6>
                  <p>H1 bold / size 12px / line 16px / spacing 0px</p>
 
-             </div>
-             <div className ="Text_style">
+            </div>
+            <div className ="Text_style">
                  <div className = "Text_style_left">
                     <strong>
                     Body Text
@@ -66,7 +75,7 @@ const Typography = () => {
                     </strong>
 
                  </div>
-                 <div className = "Text_style_right">
+                 <div className = "Text-style-right">
                  <p>Our semiconductor solutions are the engines that power today’s devices.</p>
                  <p>Body     size 14px  /  line 22px / spacing 0px</p>
                  <p>State: Normal</p>
