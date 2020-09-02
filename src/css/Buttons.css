@@ -1,72 +1,115 @@
-.Basic_Button_Style{
-
+.background-img {
+  position: relative;
+  display: block;
+  width: 978px;
+  height: 1652px;
+  background-image: url("/img/buttons@2x.png");
+  background-repeat: no-repeat;
+  background-size: 978px;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  margin-top: 110px;
 }
-.RadioBtn_ChkBox_Style{
-
+.button-b {
+  position: absolute;
+  top: 88px;
+  left: 103px;
 }
-.FunctionBtn{
-
+.button-d {
+  position: absolute;
+  top: 170px;
+  left: 103px;
 }
-.BasicButton_Style_Tag{
-
+.button-s {
+  position: absolute;
+  top: 252px;
+  left: 103px;
 }
-.BasicBtns{
-
+.radio-d {
+  position: absolute;
+  top: 612px;
+  margin: 0;
 }
+
 .B_Btn{
   box-sizing: border-box;
   width: 130px;
   height: 36px;
-  overflow: visible;
+  padding: 0px 16px;
   background-color: #ffffff;
   border-radius: 18px;
   border: 1px solid var(--Gray_State, #7c92a9);
 }
 .B_Btn:hover{
-  box-sizing: border-box;
-  width: 130px;
-  height: 36px;
-  overflow: visible;
   background-color: #ffffff;
-  border-radius: 18px;
   border: 2px solid var(--Primary_Blue, #1428a0);
 }
 .B_Btn:active{
-  box-sizing: border-box;
-  width: 130px;
-  height: 36px;
-  overflow: visible;
   background-color: #1428a0;
-  border-radius: 18px;
   color: #ffffff;
   border: 2px solid var(--Primary_Blue, #1428a0);
 }
 .B_Btn::after {
-  box-sizing: border-box;
-  width: 130px;
-  height: 36px;
-  overflow: visible;
   background-color: #ffffff;
   border-radius: 18px;
   border: 1px solid var(--Gray_State, #7c92a9);
 }
 
-
-.B_Btn:disabled{
-
-}
 .D_Btn{
-
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0px 13px;
+  background-color: #ffffff;
+  border: 1px solid var(--Gray_State, #7c92a9);
 }
-.D_Btn:disabled{
-
+.D_Btn:hover{
+  background-color: #ffffff;
+  border: 2px solid var(--Primary_Blue, #1428a0);
 }
+.D_Btn:active{
+  background-color: #1428a0;
+  color: #ffffff;
+  border: 2px solid var(--Primary_Blue, #1428a0);
+}
+.D_Btn::after {
+  background-color: #ffffff;
+  border: 1px solid var(--Gray_State, #7c92a9);
+}
+
 .S_Btn{
-
+  box-sizing: border-box;
+  width: 70px;
+  height: 26px;
+  border-radius: 13px;
+  padding: 0px 10px;
+  background-color: #ffffff;
+  border: 1px solid var(--Gray_State, #7c92a9);
 }
-.S_Btn:disabled{
-
+.S_Btn:hover{
+  background-color: #ffffff;
+  border: 2px solid var(--Primary_Blue, #1428a0);
 }
+.S_Btn:active{
+  background-color: #1428a0;
+  color: #ffffff;
+  border: 2px solid var(--Primary_Blue, #1428a0);
+}
+.S_Btn::after {
+  background-color: #ffffff;
+  border: 1px solid var(--Gray_State, #7c92a9);
+}
+
+input.D_Radio {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+  border-radius: 50%;
+  border: 1px solid var(--Primary_Blue, #1428a0);
+}
+
 .BasicBtn_StyleGuide{
 
 }

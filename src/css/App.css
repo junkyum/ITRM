@@ -26,7 +26,7 @@ body{
     overflow-y: auto;
 }
 html, body, div, span,
-h1, h2, h3, h4, h5, h6, p, ul, li {
+h1, h2, h3, h4, h5, h6, p, ul, li, input {
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -230,6 +230,19 @@ ul{
 }
 .Style_guide_Tag {
     width: 92px;
+    height: 15px;
+    overflow: visible;
+    font-family: "Inter", sans-serif;
+    color: var(--Gray_Dark, #0a1635);
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    text-align: right;
+    margin-top: 19px;
+    float: right;
+}
+.Ui_Component_Tag {
+    width: 111px;
     height: 15px;
     overflow: visible;
     font-family: "Inter", sans-serif;
