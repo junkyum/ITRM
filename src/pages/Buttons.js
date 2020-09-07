@@ -29,7 +29,8 @@ const Buttons = () => {
                     <button className = "S_Btn">Nomal</button>
                 </div>
                 <div className = "radio-d">
-                    <input type="radio" value="option1" name ="NomalRadio" className = "D_Radio" />
+                    <input type="radio" id = "NomalRadio" name ="NomalRadio" className = "D_Radio" />
+                    <label for="NomalRadio"></label> 
                 </div>
             </div>
         </div>
