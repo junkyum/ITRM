@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Color,Typography,Main,Buttons,Icon,Logo  } from 'pages';
+import { Color,Typography,Main,Buttons,Icon,Logo,Inputs  } from 'pages';
 import LeftArea from 'components/LeftArea';
 import "../css/App.css";
 
@@ -15,6 +15,7 @@ import "../css/App.css";
           <Route path="/Icon" component={Icon}/>
           <Route path="/Logo" component={Logo}/>
           <Route path="/Buttons" component={Buttons}/>
+          <Route path="/Inputs" component={Inputs}/>
           </Switch>
       </div>
       )
