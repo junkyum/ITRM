@@ -1,0 +1,12 @@
+.background-tooltip {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 1140px;
+    background-image: url("/img/tooltip@2x.png");
+    background-repeat: no-repeat;
+    background-size: 980px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    margin-top: 110px;
+  }
