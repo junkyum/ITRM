@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Color,Typography,Main,Buttons,Icon,Logo,Inputs,Tooltips  } from 'pages';
 import LeftArea from 'components/LeftArea';
+import { Container, Header, List } from "semantic-ui-react";
 import "../css/App.css";
 
 
