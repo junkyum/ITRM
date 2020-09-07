@@ -12,17 +12,8 @@ const Inputs = () => {
                 STYLE GUIDE
                 </div>
             </div>
-            <div className = "itrm-logo">
-                Input Feilds
-            </div>
-            <div className = "logo-box">
-                <img src = "../../img/ITRM@2x.png"></img>
-            </div>
-            <div className = "itrm-logo">
-                Input Feilds
-            </div>
-            <div className = "logo-box">
-                <img src = "../../img/ITRM@2x.png"></img>
+            <div className = "background-input">
+                
             </div>
         </div>
     )

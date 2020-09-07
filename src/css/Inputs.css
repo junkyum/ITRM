@@ -1,0 +1,12 @@
+.background-input {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 2860px;
+    background-image: url("/img/input@2x.png");
+    background-repeat: no-repeat;
+    background-size: 980px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    margin-top: 110px;
+  }
